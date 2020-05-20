@@ -30,6 +30,11 @@ img {
 
 
 /* footer */
-
+.linkedin, .github, .twitter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
 
 
