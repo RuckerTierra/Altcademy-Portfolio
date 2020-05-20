@@ -52,7 +52,7 @@ body {
   background-color: peachpuff;
 }
 .individual-portfolio-div {
-
+  /*empty*/
 }
 img {
   width: 100%;
@@ -64,14 +64,24 @@ img {
 footer {
   background-color:peachpuff;
 }
-.linkedin, .github, .twitter {
+.footer-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: row;
+}
+.linkedin, .github, .twitter {
+  font-size: 1.5rem;
+  display: inline-block;
+}
+.fab {
+  color: black;
 }
 
 
+.copyright-div {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
 /********** ********** responsive ********** **********/
 
 /********** ********** ********** end of style.css ********** ********** **********/
