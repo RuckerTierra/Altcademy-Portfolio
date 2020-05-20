@@ -5,17 +5,28 @@
 }
 
 body {
-  background-color: rgb(248, 237, 219);
+  /* background-color: rgb(248, 237, 219); */
   font-family: 'Open Sans', sans-serif;
   font-family: 'Montserrat', sans-serif;
   line-height: 2;
 }
+
+
 /* navigation*/
+.navbar-brand {
+  
+}
 
-
+/* jumbatron */
+.jumbatron {
+  background-image: url();
+}
 
 /* portfolio */
-
+img {
+  width: 500px;
+  height: 325px;
+}
 
 
 /* footer */
