@@ -5,40 +5,49 @@
 }
 
 body {
-  /* background-color: rgb(248, 237, 219); */
   font-family: 'Open Sans', sans-serif;
   font-family: 'Montserrat', sans-serif;
   line-height: 2;
 }
 
 
-/* navigation */
+/********** navigation **********/
 
 
 
-/* jumbotron */
+/********** jumbotron **********/
 .jumbotron {
-  background-image: url();
-  height: 20rem;
+  height: 50rem;
+  border-radius: 0;
+  background-image: url("images/pan-xiaozhen-wXG5XF73o3w-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-div {
+  padding-top: 5%;
 }
 .jumbotron h1 {
   font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+}
+.jumbotron p {
+  font-size: 1.5rem;
+  color: white;
 }
 
 
-/* portfolio */
+/********** portfolio **********/
 img {
-  width: 500px;
-  height: 325px;
+  width: 100%;
 }
 
 
-/* footer */
+/********** footer **********/
 .linkedin, .github, .twitter {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
-
-
