@@ -1,3 +1,4 @@
+/********** ********** ********** end of style.css ********** ********** **********/
 *, html, body {
   margin: 0px;
   padding: 0px;
@@ -12,7 +13,12 @@ body {
 
 
 /********** navigation **********/
-
+.navbar-dark .navbar-brand:hover {
+  color: peachpuff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: peachpuff;
+}
 
 
 /********** jumbotron **********/
@@ -23,9 +29,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 0;
 }
 .hero-div {
   padding-top: 5%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .jumbotron h1 {
   font-weight: bold;
@@ -39,15 +47,31 @@ body {
 
 
 /********** portfolio **********/
+#portfolio {
+  padding-top: 0.5rem;
+  background-color: peachpuff;
+}
+.individual-portfolio-div {
+
+}
 img {
   width: 100%;
+  border-radius: 2.5px;
 }
 
 
 /********** footer **********/
+footer {
+  background-color:peachpuff;
+}
 .linkedin, .github, .twitter {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
+
+
+/********** ********** responsive ********** **********/
+
+/********** ********** ********** end of style.css ********** ********** **********/
