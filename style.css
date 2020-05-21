@@ -64,24 +64,26 @@ img {
 footer {
   background-color:peachpuff;
 }
-.footer-container {
+.footer-wrapper {
   display: flex;
-  flex-direction: row;
+  justify-content: space-evenly;
 }
 .linkedin, .github, .twitter {
-  font-size: 1.5rem;
-  display: inline-block;
+  font-size: 2rem;
+  /* display: inline-block; */
 }
 .fab {
   color: black;
 }
-
-
 .copyright-div {
   display: flex;
   justify-content: center;
   padding: 2rem 0;
 }
-/********** ********** responsive ********** **********/
 
+
+/********** ********** responsive ********** **********/
+@media (min-width: 992px) {
+ /*removed*/
+}
 /********** ********** ********** end of style.css ********** ********** **********/
