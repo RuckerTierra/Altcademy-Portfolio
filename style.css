@@ -1,4 +1,4 @@
-/********** ********** ********** end of style.css ********** ********** **********/
+/********** ********** ********** beginning of style.css ********** ********** **********/
 *, html, body {
   margin: 0px;
   padding: 0px;
@@ -67,6 +67,7 @@ footer {
 .footer-wrapper {
   display: flex;
   justify-content: space-evenly;
+  padding: 5rem 0;
 }
 .linkedin, .github, .twitter {
   font-size: 2rem;
@@ -82,8 +83,4 @@ footer {
 }
 
 
-/********** ********** responsive ********** **********/
-@media (min-width: 992px) {
- /*removed*/
-}
 /********** ********** ********** end of style.css ********** ********** **********/
